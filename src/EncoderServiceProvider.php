@@ -1,6 +1,6 @@
 <?php
 
-namespace Superman2014\Providers;
+namespace Superman2014\JsonApi;
 
 use Illuminate\Support\ServiceProvider;
 use Neomerx\JsonApi\Document\Link;
