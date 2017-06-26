@@ -31,7 +31,7 @@ class EncoderServiceProvider extends ServiceProvider
 
         if ($this->app instanceof LaravelApplication && $this->app->runningInConsole()) {
             $this->publishes([
-                $config => config_path('encoder'),
+                $config => config_path('encoder.php'),
             ]);
         } elseif ($this->app instanceof LumenApplication) {
             $this->app->configure('encoder');
