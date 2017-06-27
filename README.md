@@ -27,3 +27,5 @@ Open bootstrap/app.php and register the required service provider.
 $app->register(Superman2014\JsonApi\EncoderServiceProvider::class);
 ```
 
+### More
+[neomerx/json-api](https://github.com/neomerx/json-api/wiki)
