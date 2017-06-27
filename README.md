@@ -2,7 +2,7 @@
 
 ## Configuration
 
-Installpackagee `composer require "superman2014/json-api:1.0.x@dev"`
+Install package `composer require "superman2014/json-api:1.0.x@dev"`
 
 ### Laravel
 
@@ -10,7 +10,7 @@ Open config/app.php and register the required service provider above your applic
 
 ```
 'providers' => [
-    Superman2014\JsonApi\EncoderServiceProvider::class
+    Superman2014\JsonApi\EncoderServiceProvider::class,
 ]
 ```
 If you'd like to make configuration changes in the configuration file you can pubish it with the following Aritsan command:
